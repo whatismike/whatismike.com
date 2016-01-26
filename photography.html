@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <title>
+    WHATISMIKE - photography
+  </title>
+<style>
+
+*{
+  font-family: futura;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+}
+
+  #banner{
+    font-size: 150px;
+
+  }
+
+  #photos{
+    display: none;
+  }
+
+  nav{
+    font-size:20px;
+  }
+
+  a {
+    color: black;
+  }
+
+  img{
+    padding-bottom: 10px;
+  }
+  footer {
+    display: none;
+    font-size: 15px;
+  }
+</style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+//fade and slide sequentially
+$(document).ready(function(){
+    $('#photos').fadeIn(1000, function(){
+      $('footer').fadeIn(500)
+    });
+  });
+</script>
+</head>
+
+<body>
+
+<div id = 'banner'>whatismike</div>
+  <nav><a title ="home" href="index.html">Home</a> /
+     <i>Photography</i> /
+     <a title ="paintings" href="art.html">Paintings</a> /
+     <a title ="contact" href="contact.html">Contact</a></nav><br><br>
+
+<div id= 'photos'>
+  <img title="dominosghost" alt="dominosghost" src="images/dominosghost.jpg"><br>
+  <img title="hoople" alt="hoople" src="images/hoople.jpg"><br>
+  <img title="removal" alt="removal" src="images/removal.jpg"><br>
+  <img title="tribune" alt="tribune" src="images/tribune.jpg"><br>
+  <img title="oldbuddyoldpal" alt="oldbuddyoldpal" src="images/oldbuddyoldpal.jpg"><br>
+  <img title="bamboo" alt="bamboo" src="images/bamboo.jpg"><br>
+  <img title="smotheredncovered" alt="smotheredncovered" src="images/smotheredncovered.jpg"><br>
+  <img title="fireexitkeepnapping" alt="fireexitkeepnapping" src="images/fireexitkeepnapping.jpg"><br>
+  <img title="drjag" alt="drjag" src="images/drjag.jpg"><br>
+  <img title="bodegacat" alt="bodegacat" src="images/bodegacat.jpg"><br>
+  <img title="asbestolith" alt="asbestolith" src="images/asbestolith.jpg"><br>
+  <img title="quintessence" alt="quintessence" src="images/quintessence.jpg"><br>
+  <img title="eeunsh" alt="eeunsh" src="images/eeunsh.jpg"><br>
+  <img title="solarstacks" alt="solarstacks" src="images/solarstacks.jpg"><br>
+  <img title="barnwick" alt="barnwick" src="images/barnwick.jpg"><br>
+  <img title="newroofcity" alt="newroofcity" src="images/newroofcity.jpg"><br>
+  <img title="sunscreen" alt="sunscreen" src="images/sunscreen.jpg"><br>
+  <img title="convo" alt="convo" src="images/convo.jpg"><br>
+  <img title="slavisym" alt="slavisym" src="images/slavisym.jpg"><br>
+  <img title="onsight" alt="onsight" src="images/onsight.jpg"><br>
+</div>
+
+</body>
+
+<footer>
+&copy; Mike Rose 2016
+</footer>
