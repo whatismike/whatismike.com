@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<title>
+  WHATISMIKE
+</title>
+<style>
+*{
+  font-family: futura;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+}
+
+  #banner{
+    font-size: 150px;
+    display: none;
+    padding-bottom:20px;
+  }
+
+  #select{
+    font-size: 80px;
+    display: none;
+    padding-bottom:40px;
+  }
+
+  a {
+    color: black;
+  }
+
+  footer {
+    display: none;
+    font-size: 15px;
+  }
+</style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+//fade and slide sequentially
+$(document).ready(function(){
+  $('#banner').fadeIn(500,function(){
+    $('#select').slideDown(500, function(){
+      $('footer').fadeIn(500)
+    });
+  });
+});
+</script>
+</head>
+<body>
+  <div id = 'banner'>whatismike</div>
+
+  <div id = 'select'>
+    <span><a href="http://whatismike.com/photography.html">photography</a></span><br>
+    <span><a href="http://whatismike.com/art.html">paintings</a></span><br>
+    <span><a href="http://whatismike.com/contact.html">contact</a></span><br>
+  </div>
+
+</body>
+  <footer>
+&copy; Mike Rose 2016
+</footer>
+
+</html>
